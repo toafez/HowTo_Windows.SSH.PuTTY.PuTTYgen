@@ -57,7 +57,7 @@ Um unter Windows einen RSA-Key zu erzeugen und sich anschließend über SSH mit 
    tommes@Ubuntu-Server:~$
    ```
 
-9. Normalerweise solltest du dich nun in deinem eigenen Benutzer-Home-Verzeichnis befinden. Du kannst dies überprüfen, indem du den Befehl **pwd** (steht für "print working directory") eingibst und die Eingabetaste drückst.
+8. Normalerweise solltest du dich nun in deinem eigenen Benutzer-Home-Verzeichnis befinden. Du kannst dies überprüfen, indem du den Befehl **pwd** (steht für "print working directory") eingibst und die Eingabetaste drückst.
 
     ```
     tommes@Ubuntu-Server:~$ pwd
@@ -66,7 +66,7 @@ Um unter Windows einen RSA-Key zu erzeugen und sich anschließend über SSH mit 
 
    Diesem Beispiel folgend befinden wir uns also im Home-Verzeichnis des Benutzers tommes (korrekterweise müsste hier natürlich dein Benutzername stehen) und genau dort wollen wir auch sein. Je nachdem, zu welchem Remote-Server-System eine Verbindung aufgebaut wird, kann hier ein abweichender Pfad ausgegeben werden. Bei Verwendung eines Synology NAS wäre der Pfad zum Home-Verzeichnis des Benutzers beispielsweise /var/services/homes/tommes.
 
-    **Anmerkung:** Wenn das verwendete System eine direkte Authentifizierung mit Schlüssel zum Superuser **root** zulässt, kann an dieser Stelle zum root-Konto gewechselt werden, um den öffentlichen Schlüssel zu kopieren. Dies geschieht durch Eingabe des Befehls `su -` bzw. `sudo -i` und Eingabe eines Passworts.
+    **Anmerkung:** Wenn das verwendete System eine direkte Authentifizierung mit Schlüssel zum Superuser **root** zulässt, kann an dieser Stelle zum root-Konto gewechselt werden, um den öffentlichen Schlüssel zu kopieren. Dies geschieht durch Eingabe des Befehls `su -`, `sudo -s` bzw. `sudo -i` und Eingabe eines Passworts.
 
 
 ## Kopieren des öffentlichen Schlüssels auf den Remote-Server
@@ -114,7 +114,7 @@ Zur besseren Lesbarkeit werden alle folgenden Eingaben ohne die Verwendung des P
 
 ## Einrichten von PuTTY für die Authentifizierung mit Schlüsseln
 1. Starte **PuTTY** erneut aus der Liste der Windows-Programme.
-2. Trage im Abschnitt **Specify the destination you want to connect to / Kost Name (or IP address)** und **Port** die IP-Adresse des Remote-Servers ein, mit dem du dich verbinden möchtest und passe ggf. den zu verwendenden Port an. Dieses Beispiel verwendet die IP-Adresse 172.16.1.12 und den Port 22.
+2. Trage im Abschnitt **Specify the destination you want to connect to / Host Name (or IP address)** und **Port** die IP-Adresse des Remote-Servers ein, mit dem du dich verbinden möchtest und passe ggf. den zu verwendenden Port an. Dieses Beispiel verwendet die IP-Adresse 172.16.1.12 und den Port 22.
 3. Wähle im Abschnitt **Specify the destination you want to connect to / Connection type** die Option **SSH** aus.
 
     ![12_PuTTY_Configuration](/images/12_PuTTY_Configuration.png)
