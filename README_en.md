@@ -131,7 +131,6 @@ For better readability, all the following entries are shown without using the `t
 
     ![15_PuTTY_Configuration](/images/15_PuTTY_Configuration.png)
 
-8 In the future, you will be able to select the configuration you have just created within PuTTY to authenticate yourself to your remote server via key exchange.
+8. In the future, you will be able to select the configuration you have just created within PuTTY to authenticate yourself to your remote server via key exchange.
 
     ![16_PuTTY_Configuration](/images/16_PuTTY_Configuration.png)
-
