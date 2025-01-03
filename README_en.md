@@ -1,6 +1,7 @@
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftoafez%2FHowTo_Windows.SSH.PuTTY.PuTTYgen&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+English | [Deutsch](README.md)
 
 # HowTo: SSH key with PuTTY and PuTTYgen
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftoafez%2FHowTo_Windows.SSH.PuTTY.PuTTYgen%2Fedit%2Fmain%2FREADME_en.md&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ## What is this about?
 The following instructions describe **how to set up SSH public key authentication** from a local Linux system to a remote Linux server **using the PuTTY and PuTTYgen programs.
